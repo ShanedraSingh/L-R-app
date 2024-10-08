@@ -15,7 +15,7 @@ df = pd.read_csv('heart.csv')
 # Convert the DataFrame to a JSON file
 df.to_json('heart.json', orient='records', lines=False)
 
-print("Data has been exported to heart.json")
+#print("Data has been exported to heart.json")
 
 st.write("### Dataset")
 st.dataframe(df.head())
